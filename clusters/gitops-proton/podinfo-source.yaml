@@ -8,5 +8,5 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/shridharMe/proton-terraform-demo.git
+  url: https://github.com/shridharMe/proton-terraform-gitops-demo.git
 
