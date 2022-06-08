@@ -1,0 +1,15 @@
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: posagemakerdinfo
+  namespace: flux-system
+spec:
+  interval: 5m0s
+  path: ./config/overlays/namespaced
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: sagemaker
+  targetNamespace: default
+
