@@ -11,5 +11,5 @@ spec:
   sourceRef:
     kind: GitRepository
     name: proton
-  targetNamespace: teamone
+  targetNamespace: edu
 
